@@ -1,0 +1,76 @@
+body{
+    background: var(--clr-primary);
+    background-image: url("/assets/background_v2.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Karla', sans-serif;
+}
+
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    &__container{
+        .tech-img{
+           margin-top: 40px;
+        }
+        .portfolio-blur{
+            background-color: rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            max-width: 100%;
+            width: 200px;
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+    }
+
+    &__links{
+        display: flex;
+        justify-content: space-around;
+
+        
+        margin: 0 auto;
+        a{
+            display: flex;
+            align-items: center;
+            img{
+                margin-right: 4px;
+            }
+        }
+        @media screen and (min-width:640px){
+            width: 50%;
+        }
+    }
+
+
+    img{
+        margin: 0 auto;
+    }
+}
+
+
+h1{
+    font-size: clamp(2.5rem, 0.5452rem + 4.2553vw, 4.375rem);
+    color: var(--clr-text-light);
+}
+
+h2, p{
+    color: var(--clr-text);
+}
+
+a{
+    color: var(--clr-text);
+}
