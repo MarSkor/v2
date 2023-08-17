@@ -44,7 +44,7 @@ export default function Home() {
           <div className="content__links">
             <a href="mailto:marty99skor@gmail.com"><Image src="/assets/icons/mail.svg" height={20} width={20} alt='mail'/> Email</a>
             <a target='_blank' href="https://www.behance.net/maskor_"> <Image src="/assets/icons/behance.svg" height={20} width={20} alt='behance'/> Behance</a>
-            <a target='_blank' href="https://bento.me/maskor"><Image src="/assets/icons/link.svg" height={20} width={20} alt='link'/> Bento</a>
+            <a target='_blank' href="https://bento.me/martinedev"><Image src="/assets/icons/link.svg" height={20} width={20} alt='link'/> Bento</a>
           </div>
           <Image className='tech-img' src="/assets/tech-img.svg" width={300} height={300} alt='tech'/>
           <p className='portfolio-blur'>Portfolio 2023</p>
