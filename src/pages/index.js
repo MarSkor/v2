@@ -8,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Martine - UI Designer & Frontend Developer</title>
         <meta name="title" content="Martine - UI Designer & Frontend Developer"/>
-        <meta name="description" content="https://www.martinessk.com"/>
+        <meta name="description" content="https://portfolio-marskor.vercel.app/"/>
 
         {/* <!-- Primary Meta Tags --> */}
         <meta name="title" content="Martine - UI Designer & Frontend Developer"/>
